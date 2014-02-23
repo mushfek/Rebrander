@@ -2,3 +2,5 @@
 !.gitignore
 
 target/*
+
+.DS_Store

@@ -14,17 +14,13 @@ import java.util.*;
 
 public class Rebrander {
     public static void main(String[] args) {
-        Map<String, Object> sampleMap = new HashMap<String, Object>();
+        String name = "ddfjdlsfjd dlkfjdl";
 
-        sampleMap.put("dipto", "me");
-        sampleMap.put("dipto2", true);
-        sampleMap.put("dipto3", 0);
-        Integer i = 5;
-        sampleMap.put("dipto4", i);
+        StringBuilder nameBuilder = new StringBuilder(name);
 
-        for (Map.Entry<String, Object> it : sampleMap.entrySet()) {
-            System.out.println(it.getKey() + " " + it.getValue());
-        }
+        String replacedName = nameBuilder.toString().replace('d', 'f');
+
+        System.out.println(replacedName);
 
 //        modelMap.put("sample", sampleMap);
 

@@ -4,11 +4,15 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.therap.rebrander.filehandler.XmlFileHandler;
+import net.therap.rebrander.parser.XmlParsingHandler;
+
 /**
  * @author mushfekur
  * @since Date: 9/26/13, Time: 9:14 AM
  */
-public class FilteredDirectoryCrawler extends DirectoryCrawler {
+
+public class FilteredDirectoryCrawler extends DirectoryCrawler implements XmlParsingHandler.XmlParser {
     private String rootDirectoryPath;
     private List<String> acceptedExtensionList;
 
@@ -52,5 +56,10 @@ public class FilteredDirectoryCrawler extends DirectoryCrawler {
 
     public void setAcceptedExtensionList(List<String> acceptedExtensionList) {
         this.acceptedExtensionList = acceptedExtensionList;
+    }
+
+    @Override
+    public void parseXml() {
+
     }
 }

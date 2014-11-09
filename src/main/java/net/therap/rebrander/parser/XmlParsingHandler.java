@@ -46,6 +46,10 @@ public class XmlParsingHandler implements ParsingHandler {
         }
     }
 
+    public interface XmlParser {
+        void parseXml();
+    }
+
     public XmlFileHandler getXmlFileHandler() {
         return xmlFileHandler;
     }

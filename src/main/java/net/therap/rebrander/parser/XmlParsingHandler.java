@@ -9,11 +9,8 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 
 /**
- * Created with IntelliJ IDEA.
- * User: mushfekur
- * Date: 9/26/13
- * Time: 9:49 AM
- * To change this template use File | Settings | File Templates.
+ * @author mushfekur
+ * @since Date: 9/26/13, Time: 9:14 AM
  */
 public class XmlParsingHandler implements ParsingHandler {
     private XmlFileHandler xmlFileHandler;

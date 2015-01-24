@@ -5,11 +5,8 @@ import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 
 /**
- * Created with IntelliJ IDEA.
- * User: mushfekur
- * Date: 9/26/13
- * Time: 10:01 AM
- * To change this template use File | Settings | File Templates.
+ * @author mushfekur
+ * @since Date: 9/26/13, Time: 9:14 AM
  */
 public class XmlRebrander extends XmlParsingHandler {
     public XmlRebrander(String filePath) {

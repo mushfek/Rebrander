@@ -1,11 +1,8 @@
 package net.therap.rebrander.customexceptions;
 
 /**
- * Created with IntelliJ IDEA.
- * User: mushfekur
- * Date: 9/26/13
- * Time: 12:11 PM
- * To change this template use File | Settings | File Templates.
+ * @author mushfekur
+ * @since Date: 9/26/13, Time: 9:14 AM
  */
 public class RebrandingExceptions extends Exception {
     public RebrandingExceptions() {

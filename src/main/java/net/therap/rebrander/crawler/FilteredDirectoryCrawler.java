@@ -5,13 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * User: mushfekur
- * Date: 9/26/13
- * Time: 9:14 AM
- * To change this template use File | Settings | File Templates.
+ * @author mushfekur
+ * @since Date: 9/26/13, Time: 9:14 AM
  */
-
 public class FilteredDirectoryCrawler extends DirectoryCrawler {
     private String rootDirectoryPath;
     private List<String> acceptedExtensionList;

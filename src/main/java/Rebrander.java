@@ -5,13 +5,9 @@ import java.io.File;
 import java.util.*;
 
 /**
- * Created with IntelliJ IDEA.
- * User: mushfekur
- * Date: 9/25/13
- * Time: 12:26 PM
- * To change this template use File | Settings | File Templates.
+ * @author mushfekur
+ * @since Date: 9/26/13, Time: 9:14 AM
  */
-
 public class Rebrander {
     public static void main(String[] args) {
         String name = "ddfjdlsfjd dlkfjdl";

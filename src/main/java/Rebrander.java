@@ -1,8 +1,7 @@
-import net.therap.rebrander.crawler.FilteredDirectoryCrawler;
 import net.therap.rebrander.parser.XmlRebrander;
 
 import java.io.File;
-import java.util.*;
+import java.util.List;
 
 /**
  * @author mushfekur

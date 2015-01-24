@@ -1,3 +1,5 @@
+import net.therap.rebrander.filehandler.FileHandler;
+import net.therap.rebrander.filehandler.XmlFileHandler;
 import net.therap.rebrander.parser.XmlRebrander;
 
 import java.io.File;
@@ -9,13 +11,9 @@ import java.util.List;
  */
 public class Rebrander {
     public static void main(String[] args) {
-        String name = "ddfjdlsfjd dlkfjdl";
+        String filePath = "resources/apache-demo.log";
 
-        StringBuilder nameBuilder = new StringBuilder(name);
-
-        String replacedName = nameBuilder.toString().replace('d', 'f');
-
-        System.out.println(replacedName);
+        FileHandler fileHandler = new XmlFileHandler(filePath);
     }
 
     private static void rebrandFiles(List<File> filteredFilesList) {

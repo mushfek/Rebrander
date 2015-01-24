@@ -21,37 +21,6 @@ public class Rebrander {
         String replacedName = nameBuilder.toString().replace('d', 'f');
 
         System.out.println(replacedName);
-
-//        modelMap.put("sample", sampleMap);
-
-//        modelMap = new HashMap<String, Object>();
-//        modelMap.put("simple", sampleMap);
-
-//        integerSet.add(null);
-//        integerSet.add(null);
-
-//        for (Integer l : integerSet) {
-//            System.out.println(l.intValue());
-//        }
-
-
-//        String targetDirectoryPath = args[0];
-//
-//        /* filtered file listing */
-//        System.out.println("Listing .xml and .xsl files...");
-//        List<String> extensionList = new ArrayList<String>();
-//        extensionList.add(".xml");
-//        extensionList.add(".xsl");
-//
-//        FilteredDirectoryCrawler fdCrawler = new FilteredDirectoryCrawler(targetDirectoryPath, extensionList);
-//        List<File> filteredFilesList = fdCrawler.getFilteredFilesList();
-//        for (File file : filteredFilesList) {
-//            System.out.println(file);
-//        }
-//        System.out.println();
-//
-//        /* parsing and replacing 'Java' with 'Oracle Java' */
-//        rebrandFiles(filteredFilesList);
     }
 
     private static void rebrandFiles(List<File> filteredFilesList) {

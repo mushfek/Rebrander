@@ -5,6 +5,7 @@ import net.therap.rebrander.parser.XmlRebrander;
 import java.io.File;
 import java.util.List;
 import java.util.*;
+import java.util.regex.Pattern;
 
 /**
  * @author mushfekur
